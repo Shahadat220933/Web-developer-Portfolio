@@ -1,7 +1,7 @@
 body{
     
   font-family: "Open Sans", sans-serif;
-  font-weight: <weight>;
+  font-weight: weight;
   font-style: normal;
 }
 
@@ -9,6 +9,7 @@ nav {
    display: flex; 
    justify-content: space-between;
    align-items: center;
+   padding: 50px 230px;
 }
 .mary{
     color: #181818;
@@ -36,19 +37,20 @@ font-weight: 800;
 .button{
     border-radius: 5px;
     background: #FD6E0A;
-    width: 140px;
-    height: 55px;
-    top: 50px;
-    left: 1220px;
-    right: 5px;
+    color: white;
+    padding: 15px;
     border: 0px;
-}
-.lekha{
-    color: var(--White-Color, #FFF);
-    font-family: "Open Sans";
     font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
+    font-weight: 700;}
+.header{
+    background-color:#FFF8F3;;
+       }
+.banner{
+    padding: 30px 230px 40px 230px;
+    display: flex;
+    align-items: center;
+     }
+    .banner .hardy{
+        width: 500px;}
 
-}
+     
