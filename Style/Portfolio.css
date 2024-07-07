@@ -25,8 +25,9 @@ font-weight: 800;
     nav > ul{
         display: flex;
         align-items: center;
-        
-        
+        }
+    .div{
+        max-width: 500px;
     }
     nav a{
         text-decoration: none;
@@ -43,14 +44,55 @@ font-weight: 800;
     font-size: 20px;
     font-weight: 700;}
 .header{
-    background-color:#FFF8F3;;
+    background-color:#FFF8F3;
+    background-image:url(../images/header_bg.png);
+    background-position:bottom right;
+    background-repeat:no-repeat;
        }
 .banner{
-    padding: 30px 230px 40px 230px;
+    padding: 30px 30px 0px 230px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
      }
-    .banner .hardy{
-        width: 500px;}
 
-     
+    .banner .hardy{
+        width: 500px;
+    }
+.hi{
+    font-weight: 600;
+    font-size: 45px;
+    margin-bottom: 0px;
+    color:#474747;
+}
+.name{
+    font-weight: 700;
+    font-size: 85px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.para{
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 0px;
+    color:#757575;
+    ;
+
+}
+.about{
+    margin: 130px 210px;
+    padding: 130px;
+    background:#FFF8F3;
+    border-radius:10px;
+}
+.section-title{
+font-size: 35px;
+font-weight: 700;
+text-align: center;
+}
+.section-para{
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+text-align: center;
+}
