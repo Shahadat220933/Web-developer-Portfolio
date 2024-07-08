@@ -62,7 +62,6 @@ nav a {
 .header{
     background-image: url(../images/developer.png);
     background-position: left;
-    image-rendering: auto;
 }
 
 .banner {
