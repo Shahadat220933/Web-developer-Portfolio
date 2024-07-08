@@ -84,6 +84,7 @@ nav a {
     margin-top: 5px;
     margin-bottom: 20px;
 }
+
 .para {
     font-weight: 400;
     font-size: 18px;
@@ -94,7 +95,7 @@ nav a {
 }
 
 .about {
-    margin: 130px;
+    /* margin: 130px; */
     padding: 130px;
     background: #FFF8F3;
     border-radius: 10px;
@@ -112,39 +113,115 @@ nav a {
     font-size: 18px;
     text-align: center;
 }
+
 main {
-    max-width: 1340px;
+    max-width: 1140px;
     margin: 0 auto;
 }
-.about-info-container{
+
+.about-info-container {
     display: flex;
-     justify-content: space-around;
+    justify-content: space-around;
 }
-.about-info{
-    text-align:center;
+
+.about-info {
+    text-align: center;
     margin: 30px;
-    
+
 }
-.info-title{
+
+.info-title {
     font-family: "Open Sans";
     margin-bottom: 0px;
 }
-.info-description{
+
+.info-description {
     color: #757575;
-    padding :5px;
+    padding: 5px;
 }
-#para{
-    padding:30px 150px 50px 150px ;
+
+#para {
+    padding: 30px 150px 50px 150px;
 }
-.skill-container{
+
+.skill-container {
+    display: flex;
+    gap: 24px;
+
+}
+
+.skill {
+    padding: 30px;
+    background-color: white;
+    box-shadow: 0px 6px 50px 0px #0000000F;
+    border-radius: 5px;
+    justify-content: center;
+}
+
+.skill-para {
+    color: #757575;
+}
+
+main section {
+    margin-top: 130px;
+}
+.resume-column{
+    text-align: left;
+}
+.resume-column-title{
+font-size: 30px;
+font-weight: 700;
+color:#474747;
+}
+.resume-item-title{
+font-size: 25px;
+font-weight: 700;
+color: #474747;
+}
+.resume-item-institute{
+color:#757575;
+font-size: 20px;
+font-weight: 600;
+text-align: left;
+}
+.resume-item-description{
+  color: #757575;
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+}
+.resume-container{
     display: flex;
 }
-.skill{
-width: 267px;
-height: 377px;
-top: 1865px;
-left: 1103px;
-border-radius: 5px 0px 0px 0px;
-background-color: white;
-margin: 50px 24px;
+.resume-container hr{
+margin: 30px;
+}
+.download-cv{
+text-align: center;
+margin-top: 50px;
+}
+footer{
+    background-color:#FFF8F3;
+    padding: 130px 150px;
+    margin-top: 113px;
+    }
+    .footer-container{
+        display: flex;
+        gap:100px;
+    }
+.footer-title{
+font-size: 35px;
+font-weight: 700;
+text-align: left;
+color: #181818;
+}
+.footer-description{
+font-size: 16px;
+font-weight: 400;
+text-align: left;
+color: #474747;
+}
+.footer-column{
+    width: 50%;
+    padding-left: 180px;
 }
