@@ -59,6 +59,11 @@ nav a {
     background-position: bottom right;
     background-repeat: no-repeat;
 }
+.header{
+    background-image: url(../images/developer.png);
+    background-position: left;
+    image-rendering: auto;
+}
 
 .banner {
     padding: 30px 30px 0px 230px;
@@ -224,4 +229,17 @@ color: #474747;
 .footer-column{
     width: 50%;
     padding-left: 180px;
+}
+.input,textarea{
+    display: block;
+    padding:18px 30px;
+    margin-bottom: 24px;
+    width: 70%;
+    border: 0px;
+    color:#757575;
+    font-family: Open Sans;
+    text-align: left;
+}
+.footer-icon a{
+    margin-right: 24px;
 }
